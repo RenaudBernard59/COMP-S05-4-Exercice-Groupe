@@ -27,3 +27,43 @@ Utilisez le plugin gmap.js pour afﬁcher la carte dans le footer.
 
 ## Polices utilisées
 Gilroy et Titilium 
+
+## Todo-list
+1. Créer les groupes GitHub et Trello
+2. Vérifier les repository
+3. Vérifier la todo-litst Trello
+4. Créer le wireframe (+ usercase ?)
+5. HTML + Merge
+6. Créer HTML Header
+7. Créer HTML Section1 : Découvrez nos boissons énergisantes
+8. Créer HTML Section2 : Nos recettes
+9. Créer HTML Section3 : Votre choix
+10. Créer HTML Section4 : Nos références
+11. Créer HTML Section5 : Carousel
+12. Créer HTML Footer
+13. Bootstrap Basic CSS (Ajout des classes) + Merge
+14. Bootstrap Section1 : Découvrez nos boissons énergisantes
+15. Bootstrap Section2 : Nos recettes
+16. Bootstrap Section3 : Votre choix
+17. Bootstrap Section4 : Nos références
+18. Bootstrap Section5 : Carousel
+19. Bootstrap Footer
+20. CSS  + Merge
+21. CSS Section1 : Découvrez nos boissons énergisantes
+22. CSS Section2 : Nos recettes
+23. CSS Section3 : Votre choix
+24. CSS Section4 : Nos références
+25. CSS Section5 : Carousel
+26. CSS Footer
+27. jQuery + Merge
+28. jQuery1 Navbar basic
+29. jQuery1 navbar optimisatin
+30. jQuery2 Boutons basic
+31. jQuery2 Boutons optimisation
+32. jQuery3 Click-Bouton basic
+32. jQuery3 Click-Bouton optimisation
+33. jQuery4
+34. jQuery4
+35. Merge projects
+36. Fix Bogues
+37. Rendre projet
