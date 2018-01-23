@@ -62,8 +62,8 @@ Gilroy et Titilium
 31. jQuery2 Boutons optimisation
 32. jQuery3 Click-Bouton basic
 32. jQuery3 Click-Bouton optimisation
-33. jQuery4
-34. jQuery4
+33. jQuery4 map basic
+34. jQuery4 map optimisation
 35. Merge projects
 36. Fix Bogues
 37. Rendre projet
