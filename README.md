@@ -1,7 +1,7 @@
 # COMP-S05-Exercice-Groupe - M2iDrink -  Projet en équipe
 
 ## Consignes complémentaires partie HTML
- Utilisation obligatoire de Bootstrap.
+Utilisation obligatoire de Bootstrap.
 
 Le clic sur « Plus d’infos » dans la partie « Recettes » afﬁche une fenêtre popup.
 
@@ -31,7 +31,7 @@ Gilroy et Titilium
 ## Todo-list
 1. Créer les groupes GitHub et Trello
 2. Vérifier les repository
-3. Vérifier la todo-litst Trello
+3. Vérifier la todo-list Trello
 4. Créer le wireframe (+ usercase ?)
 5. HTML + Merge
 6. Créer HTML Header
