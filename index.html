@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
@@ -20,6 +20,7 @@
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body>
+<!----------------------------------------------------------------------------------------------------------
 	<header>
 		<nav>
 			<div>
@@ -34,8 +35,11 @@
       </div>
     </nav>
   </header>
+-------------------------------------------------------->
   <main>
+<!----------------------------------------------------------------------------------------------------------
    <section><!--Section1-->
+<!----------------------------------------------------------------------------------------------------------
     <h2>Découvrez nos boissons énergisantes !</h2>
     <div>
      <video width="480" autoplay loop  poster="vid/snapshots/Pour.jpg" >
@@ -54,6 +58,7 @@
   <span><a href="#">Flèche</a></span>
 </section>
 <section><!--Section2-->
+  <!----------------------------------------------------------------------------------------------------------
   <h2>Nos recettes</h2>
   <div>
    <button>énergisantes</button>
@@ -81,51 +86,61 @@
    <button>sélectionner</button>
  </div>
 </section>
+-------------------------------------------------------->
+
+
 <section><!--Section3-->
-  <h2>votre choix:</h2>
-  <p>boisson sélectionnée</p>
-  <div>
-   <p> texte qui change en fonction des choix</p>
- </div>		
+  <div class="text-center">
+    <h2>votre choix:</h2>
+    <p>boisson sélectionnée</p>
+    <div><p>text</p></div>   
+  </div>
 </section>
-<section><!--Section4-->
-  <h2>Nos références</h2>
-  <figure>
-    <figcaption><p>Cafés, hôtels, restaurants</p></figcaption>
-    <img src="img/references/chr.png" alt="Produits pour Cafés, hôtes restaurants">
-  </figure>
-  <figure>
-    <figcaption>
-      <p>Marques</p></figcaption>
-      <img src="img/references/marques.png" alt="Produits pour des marques">
+<section class="container"><!--Section4-->
+  <h2 class="text-center">Nos références</h2>
+  <div>
+    <figure class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+      <figcaption class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <p>Cafés, hôtels, restaurants</p>
+      </figcaption>
+      <img src="img/references/chr.png" alt="Produits pour Cafés, hôtes restaurants" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     </figure>
-    <figure>
-      <figcaption>
-        <p>Associations, écoles</p></figcaption>
-        <img src="img/references/asso.png" alt="Produits pour Associations">
-      </figure>
-      <figure>
-        <figcaption>
-          <p>Publicité par l'objet</p></figcaption>
-          <img src="img/references/pub1.png" alt="Produits pour publicités">
-          <img src="img/references/pub2.png" alt="Produits pour publicités">
-          <img src="img/references/pub3.png" alt="Produits pour publicités">
-        </figure>
-        <div>
-          <small>Toutes les marques commerciales déposés ou non cités dans ce document sont la propriété exclusive de leurs déteneurs respectifs</small>
-        </div>
-      </section>
-      <section><!--Section5-->
-        <h2>Carroussel</h2>
-        <div>
-          <div>
-            <p>Caroussel</p>
-            <p>Le titre de l'image</p>
-            <p>Le sous-titre de l'image du caroussel</p>
-          </div>
-        </div>
-      </section>
-    </main>
+    <figure class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+      <figcaption class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <p>Marques</p>
+      </figcaption>
+      <img src="img/references/marques.png" alt="Produits pour des marques" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    </figure>
+    <figure class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+      <figcaption class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <p>Associations, écoles</p>
+      </figcaption>
+      <img src="img/references/asso.png" alt="Produits pour Associations" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    </figure>
+    <figure class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col col-md-offset-1 col-lg-offset-1 ">
+      <figcaption class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <p>Publicité par l'objet</p>
+      </figcaption>
+      <img src="img/references/pub1.png" alt="Produits pour publicités" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+      <img src="img/references/pub2.png" alt="Produits pour publicités" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+      <img src="img/references/pub3.png" alt="Produits pour publicités" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    </figure>
+  </div>
+  <div>
+    <small class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">Toutes les marques commerciales déposés ou non cités dans ce document sont la propriété exclusive de leurs déteneurs respectifs</small>
+  </div>
+</section>
+<section><!--Section5-->
+  <h2 class="hidden">Carroussel</h2>
+  <div>
+    <div>
+      <p>Caroussel</p>
+      <p>Le titre de l'image</p>
+      <p>Le sous-titre de l'image du caroussel</p>
+    </div>
+  </div>
+</section>
+</main>
     <footer>
       <section>
         <h2>Nous contacter</h2>
