@@ -181,11 +181,45 @@ section:nth-of-type(3) p, section:nth-of-type(3) div {
 	font-size: 0.8em;
 }
 
-
-
-
 /*=====================================================
 ===Section4===*/
+
+/*Order and properties of containers*/
+section#references div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+section#references div figure:nth-of-type(1) {
+	order: 1;
+}
+
+section#references div figure:nth-of-type(2) {
+	order: 2;
+}
+
+section#references div figure:nth-of-type(3) {
+	order: 3;
+}
+
+section#references div figure:nth-of-type(4) {
+	order: 5;
+}
+
+section#references div small {
+	order: 4;
+	padding: 30px 30% 30px 30% ;
+}
+
+/*figcaptions*/ 
+section#references div figure figcaption {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px black solid;
+}
 
 
 
