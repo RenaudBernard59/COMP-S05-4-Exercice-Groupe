@@ -1,7 +1,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/* ===All-=================================================================== */
 @font-face {
  font-family: "Gilroy Extrabold";
  	src: url("../fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
@@ -10,6 +10,13 @@
 		url("../fonts/gilroy-extrabold-webfont.svg") format("svg"),
 		url("../fonts/gilroy-extrabold-webfont.eot") format("eot");
 }
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
 
 * {
 	font-family: 'Titillium Web', sans-serif;
@@ -26,17 +33,28 @@ footer section h2, main section:first-child > h2 {
 }
 
 
-
-
 main section:first-child > h2 {
 	margin-top: 50vh;
 }
 	
+/* ===Header================================================================= */
+
+nav a {
+	color: white !important;
+}
+
+nav a:hover {
+	color: grey !important;
+}
+
+
+
+/* ===Main=================================================================== */
 
 
 
 
-
+/* ===Footer================================================================= */
 
 
 
