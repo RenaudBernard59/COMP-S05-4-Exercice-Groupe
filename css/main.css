@@ -34,6 +34,13 @@ footer section h2, main section:first-child > h2 {
 
 	
 /* ===Header================================================================= */
+nav {
+	opacity: 0.9;
+	border-radius: 0 !important;
+	border: none !important;
+	font-size: 2em;
+}
+
 
 nav a {
 	color: white !important;
