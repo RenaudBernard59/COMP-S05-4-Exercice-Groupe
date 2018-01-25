@@ -1,22 +1,270 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ===All-=================================================================== */
+@font-face {
+ font-family: "Gilroy Extrabold";
+ 	src: url("../fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("../fonts/gilroy-extrabold-webfont.woff") format("woff"), 
+		url("../fonts/gilroy-extrabold-webfont.ttf") format("ttf"),
+		url("../fonts/gilroy-extrabold-webfont.svg") format("svg"),
+		url("../fonts/gilroy-extrabold-webfont.eot") format("eot");
+}
 
-/*
-font-family: 'Titillium Web', sans-serif;
-*/
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+* {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+section > h2 {
+	font-family: 'Gilroy Extrabold', sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	letter-spacing: 10px;
+}
+
+footer section h2, main section:first-child > h2 {
+	color: white;
+	text-transform: initial;
+}
+
+	
+/* ===Header================================================================= */
+nav {
+	opacity: 0.9;
+	border-radius: 0 !important;
+	border: none !important;
+	font-size: 2em;
+}
+
+
+nav a {
+	color: white !important;
+}
+
+nav a:hover {
+	color: grey !important;
+}
+
+
+
+/* ===Main=================================================================== */
+/*=====================================================
+===Section1===*/
+/*Titre Section*/
+main section:first-child > h2 {
+	margin-top: 45vh;
+	margin-bottom: 35vh;
+}
+
+
+/*La vidéo de fond*/
+div#videocontainer {
+	position: absolute;
+	right: 0;
+  	bottom: 0;
+  	z-index: -100;
+}
+
+
+video#bgvid {
+  position: fixed;
+  min-width:100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background: url(../vid/snapshots/Pour.jpg) no-repeat;
+  background-size: cover;
+}
+
+/*La flèche*/
+main section span a {
+	display: flex;
+}
+
+i.fa-arrow-down {
+	margin: auto;
+	color: white;
+	font-size: 4em;
+}
+
+/*=====================================================
+===Section2===*/
+/*Section complète*/
+section#recettes {
+	background-color: white;
+	padding: 20px;
+}
+
+/* Les boutons badges au sens large*/
+button.badge {
+	background-color: rgba(50,50,50,0.3);
+	border: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 5px;
+}
+
+/*Les 2 badges du dessus*/
+section#recettes div:first-child button.badge  {
+	color: black;
+	font-size: 1.5em;
+	border-radius: 20px;
+}
+
+section#recettes div:first-child {
+	margin-bottom: 50px;
+}
+
+/*Container de recettes*/
+section#recettes div:nth-of-type(2), section:nth-of-type(3) div:nth-of-type(2){
+	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+}
+
+section#recettes div div article,  section:nth-of-type(3) div div article {
+	border-radius: 10px;
+	width: 30%;
+	padding: 15px;
+}
+
+section#recettes div div article:nth-of-type(1), section:nth-of-type(3) div div article:nth-of-type(1) {
+	background-color: Crimson;
+}
+
+section#recettes div div article:nth-of-type(2), section:nth-of-type(3) div div article:nth-of-type(2) {
+	background-color: YellowGreen;
+}
+
+section#recettes div div article:nth-of-type(3), section:nth-of-type(3) div div article:nth-of-type(3) {
+	background-color: Chocolate;
+}
+
+
+/*Titre et icône des container*/
+section#recettes div div article div:first-child, section:nth-of-type(3) div div article div:first-child  {
+	display: inline;
+	color: white;
+}
+i.fa-bolt, i.fa-snowflake-o{
+	font-size: 2em;
+	position: absolute;
+	right: 20px;
+	top: 40px;
+}
+
+/*Sélection*/
+section#recettes div div article div p,  section:nth-of-type(3) div div article div p {
+	color: white;
+	text-transform: uppercase;
+}
+
+/*=====================================================
+===Section3===*/
+
+section:nth-of-type(3) {
+	background-color: rgba(50,50,50,0.3);
+	padding: 50px;
+	height: auto;
+}
+
+section:nth-of-type(3) h2 {
+	font-size: 1.5em;
+}
+
+section:nth-of-type(3) p, section:nth-of-type(3) div {
+	font-size: 0.8em;
+}
+
+section:nth-of-type(3) div div {
+	margin:; auto;
+	padding: auto;
+	width: 100%/3;
+}
+
+/*=====================================================
+===Section4===*/
+
+/*Order and properties of containers*/
+section#references div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+section#references div figure:nth-of-type(1) {
+	order: 1;
+}
+
+section#references div figure:nth-of-type(2) {
+	order: 2;
+}
+
+section#references div figure:nth-of-type(3) {
+	order: 3;
+}
+
+section#references div figure:nth-of-type(4) {
+	order: 5;
+}
+
+section#references div small {
+	order: 4;
+	padding: 30px 30% 30px 30% ;
+}
+
+/*figcaptions*/ 
+section#references div figure figcaption {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px black solid;
+}
 
 
 
 
+/*=====================================================
+===Section5===*/
 
+footer {
+	background-color: #444;
+	padding-bottom: 50px;
+}
 
+footer div section > h2 {
+	font-size: 2em;
+	letter-spacing: normal;
+	padding: 10px;
+	margin: 5px;
+}
 
+label.control-label {
+	color: white;
+}
 
+form button {
+	background-color: transparent;
+	color: white;
+	border: none;
+}
 
+div#map {
+	height: 300px;
+}
 
+/* ===Footer================================================================= */
 
 
 
