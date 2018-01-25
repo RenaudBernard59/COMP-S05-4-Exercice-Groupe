@@ -32,10 +32,6 @@ footer section h2, main section:first-child > h2 {
 	text-transform: initial;
 }
 
-
-main section:first-child > h2 {
-	margin-top: 50vh;
-}
 	
 /* ===Header================================================================= */
 
@@ -50,8 +46,43 @@ nav a:hover {
 
 
 /* ===Main=================================================================== */
+/*===Section1===*/
+/*Titre Section*/
+main section:first-child > h2 {
+	margin-top: 50vh;
+	margin-bottom: 30vh;
+}
 
 
+/*La vidéo de fond*/
+div#videocontainer {
+	position: absolute;
+	right: 0;
+  	bottom: 0;
+  	z-index: -100;
+}
+
+
+video#bgvid {
+  position: fixed;
+  min-width:100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background: url(../vid/snapshots/Pour.jpg) no-repeat;
+  background-size: cover;
+}
+
+/*La flèche*/
+main section span a {
+	display: flex;
+}
+
+i.fa-arrow-down {
+	margin: auto;
+	color: white;
+	font-size: 4em;
+}
 
 
 /* ===Footer================================================================= */
