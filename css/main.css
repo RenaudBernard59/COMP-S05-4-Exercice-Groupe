@@ -233,6 +233,7 @@ section#references div figure figcaption {
 
 footer {
 	background-color: #444;
+	padding-bottom: 50px;
 }
 
 footer div section > h2 {
@@ -250,6 +251,10 @@ form button {
 	background-color: transparent;
 	color: white;
 	border: none;
+}
+
+div#map {
+	height: 300px;
 }
 
 /* ===Footer================================================================= */
