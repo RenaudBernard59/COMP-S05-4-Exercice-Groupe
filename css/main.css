@@ -231,9 +231,26 @@ section#references div figure figcaption {
 /*=====================================================
 ===Section5===*/
 
+footer {
+	background-color: #444;
+}
 
+footer div section > h2 {
+	font-size: 2em;
+	letter-spacing: normal;
+	padding: 10px;
+	margin: 5px;
+}
 
+label.control-label {
+	color: white;
+}
 
+form button {
+	background-color: transparent;
+	color: white;
+	border: none;
+}
 
 /* ===Footer================================================================= */
 
