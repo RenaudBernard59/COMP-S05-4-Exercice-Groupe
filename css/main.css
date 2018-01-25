@@ -84,6 +84,79 @@ i.fa-arrow-down {
 	font-size: 4em;
 }
 
+/*===Section2===*/
+/*Section complète*/
+section#recettes {
+	background-color: white;
+	padding: 20px;
+}
+
+/* Les boutons badges au sens large*/
+button.badge {
+	background-color: rgba(50,50,50,0.3);
+	border: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 5px;
+}
+
+/*Les 2 badges du dessus*/
+section#recettes div:first-child button.badge  {
+	color: black;
+	font-size: 1.5em;
+	border-radius: 20px;
+}
+
+section#recettes div:first-child {
+	margin-bottom: 50px;
+}
+
+/*Container de recettes*/
+section#recettes div:nth-of-type(2) {
+	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+}
+
+section#recettes div div article {
+	border-radius: 10px;
+	width: 30%;
+	padding: 15px;
+}
+
+section#recettes div div article:nth-of-type(1) {
+	background-color: Crimson;
+}
+
+section#recettes div div article:nth-of-type(2) {
+	background-color: YellowGreen;
+}
+
+section#recettes div div article:nth-of-type(3) {
+	background-color: Chocolate;
+}
+
+
+/*Titre et icône des container*/
+section#recettes div div article div:first-child {
+	display: inline;
+	color: white;
+}
+i.fa-bolt, i.fa-snowflake-o{
+	font-size: 2em;
+	position: absolute;
+	right: 20px;
+	top: 40px;
+}
+
+/*Sélection*/
+section#recettes div div article div p {
+	color: white;
+	text-transform: uppercase;
+}
+
+
 
 /* ===Footer================================================================= */
 
