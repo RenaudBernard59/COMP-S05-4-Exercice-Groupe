@@ -46,7 +46,8 @@ nav a:hover {
 
 
 /* ===Main=================================================================== */
-/*===Section1===*/
+/*=====================================================
+===Section1===*/
 /*Titre Section*/
 main section:first-child > h2 {
 	margin-top: 50vh;
@@ -84,7 +85,8 @@ i.fa-arrow-down {
 	font-size: 4em;
 }
 
-/*===Section2===*/
+/*=====================================================
+===Section2===*/
 /*Section complète*/
 section#recettes {
 	background-color: white;
@@ -155,6 +157,36 @@ section#recettes div div article div p {
 	color: white;
 	text-transform: uppercase;
 }
+
+/*=====================================================
+===Section3===*/
+
+section:nth-of-type(3) {
+	background-color: rgba(50,50,50,0.3);
+	padding: 50px;
+}
+
+section:nth-of-type(3) h2 {
+	font-size: 1.5em;
+}
+
+section:nth-of-type(3) p, section:nth-of-type(3) div {
+	font-size: 0.8em;
+}
+
+
+
+
+/*=====================================================
+===Section4===*/
+
+
+
+
+/*=====================================================
+===Section5===*/
+
+
 
 
 
